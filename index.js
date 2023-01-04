@@ -1,5 +1,6 @@
 exports.isFPAvulnerable = isFPAvulnerable;
 
+// This code is from @pradosh-arduino/FOA-Checker in github
 function isFPAvulnerable(a, b, decimal_leng) {
     a *= decimal_leng; b *= decimal_leng;
     // ^ Removing decimal so division is easy
